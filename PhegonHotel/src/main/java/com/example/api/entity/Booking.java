@@ -43,19 +43,6 @@ public class Booking {
     }
 
 
-//    public void setId(Long id) {
-//        this.id = id;
-//    }
-
-//    public void setNumOfAdults(@Min(value = 1, message = "No of adults must not be less that 1") int numOfAdults) {
-//        this.numOfAdults = numOfAdults;
-//    }
-//
-//    public void setNumOfChildren(@Min(value = 0, message = "No of children must not be less that 0") int numOfChildren) {
-//        this.numOfChildren = numOfChildren;
-//    }
-
-
     public void setNumOfAdults(int numOfAdults) {
         this.numOfAdults = numOfAdults;
         calculateTotalNumOfGuest();
